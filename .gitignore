@@ -1,0 +1,61 @@
+# Python bytecode and caches
+__pycache__/
+*.py[cod]
+.pytest_cache/
+.mypy_cache/
+.ruff_cache/
+
+# Environments and packaging
+.venv/
+venv/
+env/
+build/
+dist/
+*.egg-info/
+
+# Coverage
+.coverage
+.coverage.*
+htmlcov/
+coverage.xml
+
+# Jupyter
+.ipynb_checkpoints/
+*.nbconvert.ipynb
+
+# Data, artifacts, and models
+data/
+artifacts/
+models/
+reports/generated/
+mlruns/
+wandb/
+*.csv
+*.tsv
+*.parquet
+*.arrow
+*.feather
+*.h5
+*.pkl
+*.joblib
+*.onnx
+*.pt
+*.pth
+
+# Keep documented placeholders and small fixtures
+!data/README.md
+!tests/fixtures/*.csv
+
+# Secrets and local configuration
+.env
+.env.*
+!.env.example
+*.pem
+*.key
+
+# Editors and operating systems
+.idea/
+.vscode/
+.DS_Store
+Thumbs.db
+*.log

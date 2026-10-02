@@ -1,0 +1,12 @@
+* text=auto eol=lf
+*.png binary
+*.jpg binary
+*.jpeg binary
+*.gif binary
+*.parquet binary
+*.arrow binary
+*.feather binary
+*.h5 binary
+*.pkl binary
+*.joblib binary
+*.onnx binary
